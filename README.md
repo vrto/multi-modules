@@ -10,9 +10,11 @@ This is a small demo that demonstrates how to use Gradle and Spring Boot to crea
 - **logic** - shared services, no web layer
 - **web** - module with its own web stuff that can import and run controllers from legacy module too
 
+All modules are listed in `settings.gradle` file.
+
 ### Tests
 
-RestAssured tests demonstrate that modules can be tested both independently (`LegacyWebTest`) and together ()`WebApp1Test`)
+RestAssured tests demonstrate that modules can be tested both independently (`LegacyWebTest`) and together (`WebApp1Test`)
 
 ### Building
 
